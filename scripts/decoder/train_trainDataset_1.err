@@ -1,2 +1,0 @@
-rm: cannot remove ‘/public/home/xiayini/project/NewL/Decoder/scripts/decoder/test’: No such file or directory
-slurmstepd: error: *** JOB 262927 ON gpu1 CANCELLED AT 2024-10-04T14:20:40 ***
