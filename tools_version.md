@@ -1,11 +1,15 @@
-bonito 0.8.1
+To run your project successfully, make sure the following environment and package versions are installed:
 
-Remora version: 3.2.2
+# Major software versions
 
-samtools: module load apps/samtools/1.16.1-gnu485
+Bonito: 0.8.1
+Remora: 3.2.2
+Samtools: 1.16.1
+Python: 3.8.10
 
-Python 3.8.10
-conda list
+# Conda
+The following are the details of the installed packages listed using the conda list command. You can use this information to ensure that the correct package version is installed in your Conda environment.
+
 Name                    Version                   Build  Channel
 _libgcc_mutex             0.1                        main  
 _openmp_mutex             5.1                       1_gnu  
@@ -75,8 +79,13 @@ utf8proc                  2.6.1                h5eee18b_1
 wheel                     0.43.0           py38h06a4308_0  
 xz                        5.4.6                h5eee18b_1  
 zlib                      1.2.13               h5eee18b_1  
-zstd                      1.5.5                hc292b87_2 
+zstd                      1.5.5                hc292b87_2
 
+# Pip Package
+The following are the details of the installed packages listed using the pip list command. Make sure that these packages and versions are also included in your environment.
+
+Package                  Version
+------------------------ --------------------
 pip list
 Package                  Version
 ------------------------ --------------------
