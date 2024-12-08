@@ -171,3 +171,11 @@ tzdata                   2024.1
 urllib3                  2.2.1
 vbz-h5py-plugin          1.0.1
 wheel                    0.43.0
+
+
+| 包名        | 版本号   |
+|-------------|----------|
+| lib_pod5    | 0.3.10   |
+| mappy       | 2.28     |
+| MarkupSafe  | 2.1.5    |
+| matplotlib  | 3.7.5    |
