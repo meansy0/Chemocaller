@@ -84,98 +84,89 @@ zstd                      1.5.5                hc292b87_2
 # Pip Package
 The following are the details of the installed packages listed using the pip list command. Make sure that these packages and versions are also included in your environment.
 
-Package                  Version
------------------------- --------------------
-pip list
-Package                  Version
------------------------- --------------------
-backports.zoneinfo       0.2.1
-Bottleneck               1.3.7
-certifi                  2024.6.2
-cffi                     1.16.0
-charset-normalizer       3.3.2
-contourpy                1.1.1
-cycler                   0.12.1
-edlib                    1.3.9
-fast_ctc_decode          0.3.6
-filelock                 3.14.0
-fonttools                4.53.0
-fsspec                   2024.6.0
-h5py                     3.10.0
-idna                     3.7
-importlib_resources      6.4.0
-iso8601                  2.1.0
-Jinja2                   3.1.4
-joblib                   1.4.2
-kiwisolver               1.4.5
-lib_pod5                 0.3.10
-mappy                    2.28
-MarkupSafe               2.1.5
-matplotlib               3.7.5
-mizani                   0.9.3
-mkl-fft                  1.3.1
-mkl-random               1.2.2
-mkl-service              2.4.0
-more-itertools           10.2.0
-mpmath                   1.3.0
-networkx                 3.1
-numexpr                  2.8.4
-numpy                    1.24.4
-nvidia-cublas-cu12       12.1.3.1
-nvidia-cuda-cupti-cu12   12.1.105
-nvidia-cuda-nvrtc-cu12   12.1.105
-nvidia-cuda-runtime-cu12 12.1.105
-nvidia-cudnn-cu12        8.9.2.26
-nvidia-cufft-cu12        11.0.2.54
-nvidia-curand-cu12       10.3.2.106
-nvidia-cusolver-cu12     11.4.5.107
-nvidia-cusparse-cu12     12.1.0.106
-nvidia-nccl-cu12         2.18.1
-nvidia-nvjitlink-cu12    12.5.40
-nvidia-nvtx-cu12         12.1.105
-ont-bonito               0.8.1
-ont-fast5-api            4.1.3
-ont-koi                  0.4.4
-ont-remora               3.2.2
-packaging                24.0
-pandas                   2.0.3
-parasail                 1.3.4
-patsy                    0.5.6
-pillow                   10.3.0
-pip                      24.0
-plotnine                 0.12.4
-pod5                     0.3.10
-polars                   0.20.31
-progressbar33            2.4
-pyarrow                  11.0.0
-pycparser                2.22
-pyparsing                3.1.2
-pysam                    0.22.1
-python-dateutil          2.9.0.post0
-pytz                     2024.1
-requests                 2.32.3
-scikit-learn             1.3.2
-scipy                    1.10.1
-setuptools               69.5.1
-six                      1.16.0
-statsmodels              0.14.1
-sympy                    1.12.1
-thop                     0.1.1.post2209072238
-threadpoolctl            3.5.0
-toml                     0.10.2
-torch                    2.1.2
-tqdm                     4.66.4
-triton                   2.1.0
-typing_extensions        4.12.1
-tzdata                   2024.1
-urllib3                  2.2.1
-vbz-h5py-plugin          1.0.1
-wheel                    0.43.0
+| Package                          | Version                   |
+|----------------------------------|---------------------------|
+| backports.zoneinfo               | 0.2.1                     |
+| Bottleneck                       | 1.3.7                     |
+| certifi                          | 2024.6.2                  |
+| cffi                             | 1.16.0                    |
+| charset-normalizer               | 3.3.2                     |
+| contourpy                        | 1.1.1                     |
+| cycler                           | 0.12.1                    |
+| edlib                            | 1.3.9                     |
+| fast_ctc_decode                  | 0.3.6                     |
+| filelock                         | 3.14.0                    |
+| fonttools                        | 4.53.0                    |
+| fsspec                           | 2024.6.0                  |
+| h5py                             | 3.10.0                    |
+| idna                             | 3.7                       |
+| importlib_resources              | 6.4.0                     |
+| iso8601                          | 2.1.0                     |
+| Jinja2                           | 3.1.4                     |
+| joblib                           | 1.4.2                     |
+| kiwisolver                       | 1.4.5                     |
+| lib_pod5                         | 0.3.10                    |
+| mappy                            | 2.28                      |
+| MarkupSafe                       | 2.1.5                     |
+| matplotlib                       | 3.7.5                     |
+| mizani                           | 0.9.3                     |
+| mkl-fft                          | 1.3.1                     |
+| mkl-random                       | 1.2.2                     |
+| mkl-service                      | 2.4.0                     |
+| more-itertools                   | 10.2.0                    |
+| mpmath                           | 1.3.0                     |
+| networkx                         | 3.1                       |
+| numexpr                          | 2.8.4                     |
+| numpy                            | 1.24.4                    |
+| nvidia-cublas-cu12               | 12.1.3.1                  |
+| nvidia-cuda-cupti-cu12           | 12.1.105                  |
+| nvidia-cuda-nvrtc-cu12           | 12.1.105                  |
+| nvidia-cuda-runtime-cu12         | 12.1.105                  |
+| nvidia-cudnn-cu12                | 8.9.2.26                  |
+| nvidia-cufft-cu12                | 11.0.2.54                 |
+| nvidia-curand-cu12               | 10.3.2.106                |
+| nvidia-cusolver-cu12             | 11.4.5.107                |
+| nvidia-cusparse-cu12             | 12.1.0.106                |
+| nvidia-nccl-cu12                 | 2.18.1                    |
+| nvidia-nvjitlink-cu12            | 12.5.40                   |
+| nvidia-nvtx-cu12                 | 12.1.105                  |
+| ont-bonito                       | 0.8.1                     |
+| ont-fast5-api                    | 4.1.3                     |
+| ont-koi                          | 0.4.4                     |
+| ont-remora                       | 3.2.2                     |
+| packaging                        | 24.0                      |
+| pandas                           | 2.0.3                     |
+| parasail                         | 1.3.4                     |
+| patsy                            | 0.5.6                     |
+| pillow                           | 10.3.0                    |
+| pip                              | 24.0                      |
+| plotnine                         | 0.12.4                    |
+| pod5                             | 0.3.10                    |
+| polars                           | 0.20.31                   |
+| progressbar33                    | 2.4                       |
+| pyarrow                          | 11.0.0                    |
+| pycparser                        | 2.22                      |
+| pyparsing                        | 3.1.2                     |
+| pysam                            | 0.22.1                    |
+| python-dateutil                  | 2.9.0.post0               |
+| pytz                             | 2024.1                    |
+| requests                         | 2.32.3                    |
+| scikit-learn                     | 1.3.2                     |
+| scipy                            | 1.10.1                    |
+| setuptools                       | 69.5.1                    |
+| six                              | 1.16.0                    |
+| statsmodels                      | 0.14.1                    |
+| sympy                            | 1.12.1                    |
+| thop                             | 0.1.1.post2209072238      |
+| threadpoolctl                    | 3.5.0                     |
+| toml                             | 0.10.2                    |
+| torch                            | 2.1.2                     |
+| tqdm                             | 4.66.4                    |
+| triton                           | 2.1.0                     |
+| typing_extensions                | 4.12.1                    |
+| tzdata                           | 2024.1                    |
+| urllib3                          | 2.2.1                     |
+| vbz-h5py-plugin                  | 1.0.1                     |
+| wheel                            | 0.43.0                    |
 
 
-| 包名        | 版本号   |
-|-------------|----------|
-| lib_pod5    | 0.3.10   |
-| mappy       | 2.28     |
-| MarkupSafe  | 2.1.5    |
-| matplotlib  | 3.7.5    |
