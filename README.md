@@ -1,7 +1,7 @@
 # Chemocaller: Inferring Nucleotide Chemical Structures from Nanopore Sequencing Ionic Currents
 
 **Date**: From 2024-01 to present  
-**Author**: Qinixia  
+**Author**: Qini Xia  
 **Current Status**: Ongoing
 
 ## Project Overview
@@ -22,7 +22,7 @@ The project relies on the following tools and versions:
 
 - **Bonito**: 0.8.1  
 - **Remora**: 3.2.2  
-- **Samtools**: 1.16.1 (module load: `apps/samtools/1.16.1-gnu485torch`)  
+- **Samtools**: 1.16.1
 - **Torch**: 2.1.2  
 - **Pysam**: 0.22.1  
 
