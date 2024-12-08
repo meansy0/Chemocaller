@@ -52,7 +52,7 @@ The project is built upon the **Remora** platform. To run the project, please fo
    pip install -r requirements.txt
    ```
 
-3. The key code for the project can be found in the `scripts/decoder` directory. Please read and understand this code carefully as it forms the core functionality of the project.
+3. The key code for the project can be found in the `scripts/decoder` directory, especially `train_model.py`. Please read and understand this code carefully as it forms the core functionality of the project.
 
 4. Follow the setup instructions for Remora in the [official Remora repository](https://github.com/nanoporetech/remora) to configure your environment and ensure all dependencies are properly set up.
 
